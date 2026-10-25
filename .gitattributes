@@ -1,0 +1,8 @@
+# Language detection rules
+build/* linguist-vendored  
+
+* text=auto
+static/index.html linguist-vendored
+
+**/*.py linguist-detectable
+*.yaml linguist-detectable=false
